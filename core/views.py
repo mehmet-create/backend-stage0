@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.http import JsonResponse
 import requests
 from datetime import datetime, timezone
@@ -18,8 +17,8 @@ def me(request):
     data = {
         "status": "success",
         "user": {
-            "email": "your.email@example.com",
-            "name": "Your Full Name",
+            "email": "omotayoisrael24@gmail.com",
+            "name": "Omotayo Israel",
             "stack": "Python/Django"
         },
         "timestamp": timestamp,
