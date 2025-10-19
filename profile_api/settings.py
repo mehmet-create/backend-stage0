@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@qat4g^ao$ueeum1kf!zdk+v=@0y2(r21)s#7u1wn5gh$alofy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['backend-stage00.pxxl.click', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ["israel-profile-api.pxxl.click", '127.0.0.1', 'localhost']
 
 
 
