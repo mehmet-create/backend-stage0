@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure-@qat4g^ao$ueeum1kf!zdk+v=@0y2(r21)s#7u1wn5gh$alofy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["backend-stage0.onrender.com", '127.0.0.1', 'localhost', "profile_api.koyeb.app", "backend-stage0.mehmetz18.repl.co"]
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "b33e8cf4-5faa-4bb6-84e1-40922fedeee3-00-2on6ataon6d6c.riker.replit.dev",
+    ".replit.dev"
+]
+
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
